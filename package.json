@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthurzitos/qa-cypress-automation-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arthurzitos/qa-cypress-automation-sample/issues"
+  },
+  "homepage": "https://github.com/Arthurzitos/qa-cypress-automation-sample#readme",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}
