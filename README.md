@@ -8,7 +8,7 @@ O objetivo é mostrar conhecimento real em:
 - Automação de testes end-to-end
 - Documentação técnica
 - Boas práticas de QA
-= Investigação e validação de fluxo completo
+- Investigação e validação de fluxo completo
 
 ## 🚀 Cenário Automatizado
 - CT-001 — Login com credenciais válidas
@@ -21,7 +21,13 @@ Status: Aprovado
 
 Documentação: `/docs/CT-001_Login_Valido.md`
 
-### Validação feita:
+## 📁 Evidências (geradas automaticamente pelo Cypress)
+
+- Screenshots: `cypress/screenshots/`
+
+- Vídeos: `cypress/videos/`
+
+### Validações Feitas:
 
 - ✔ Redirecionamento para `/inventory.html` após autenticação
 - ✔ Preenchimento de campos
@@ -44,15 +50,20 @@ Documentação: `/docs/CT-001_Login_Valido.md`
 
 `npx cypress open`
 
-### Rodar o teste:
+### Para rodar o teste:
 
 `login.cy.js`
+
+## ▶ Executar em modo headless (gera evidências automaticamente):
+`npx cypress run`
 
 ## 📂 Estrutura do Projeto
 ```
   cypress/
     e2e/
       login.cy.js
+    screenshots/
+    videos/
   docs/
     CT-001_Login_Valido.md
     evidencias/
