@@ -1,53 +1,68 @@
-## Cypress Automation Sample – QA Portfolio
+## 🧪 Cypress Automation — Portfolio QA
 
-Este repositório contém um teste simples de automação usando Cypress, criado para demonstrar conhecimento em:
+Este repositório faz parte do meu portfólio técnico de Qualidade de Software. Ele demonstra minha capacidade de estruturar, automatizar e documentar testes E2E utilizando Cypress.
 
-- Estruturação de testes
-- Escrita de cenários claros
-- Validações objetivas
-- Automação de fluxo real
+O objetivo é mostrar conhecimento real em:
 
-## 🔧 Tecnologias
+- Escrita de cenários de teste
+- Automação de testes end-to-end
+- Documentação técnica
+- Boas práticas de QA
+= Investigação e validação de fluxo completo
+
+## 🚀 Cenário Automatizado
+- CT-001 — Login com credenciais válidas
+
+Fluxo: Login no site público SauceDemo
+
+Objetivo: Garantir que um usuário válido consegue acessar a área logada
+
+Status: Aprovado
+
+Documentação: `/docs/CT-001_Login_Valido.md`
+
+### Validação feita:
+
+- ✔ Redirecionamento para `/inventory.html` após autenticação
+- ✔ Preenchimento de campos
+- ✔ Execução reproduzível
+
+## 🧩 Tecnologias Utilizadas
 
 - JavaScript
 - Cypress
 - Node.js
+- VSCode
 
-## 📌 Cenário Automatizado
+## ▶ Como executar o projeto
 
-Fluxo: Login válido no site público de testes SauceDemo. <br/>
-Objetivo: Validar que um usuário com credenciais corretas consegue acessar a área logada.
+### Instalar dependências:
 
-## Passos:
+`npm install`
 
-1. Acessar a página inicial
-2. Inserir usuário válido
-3. Inserir senha válida
-4. Clicar em “Login”
-5. Validar navegação para /inventory.html
+### Abrir o Cypress:
 
-## Resultado esperado:
-- O sistema redireciona o usuário para a página de inventário após login com sucesso.
+`npx cypress open`
 
-## ▶ Como executar
-No terminal:
+### Rodar o teste:
+
+`login.cy.js`
+
+## 📂 Estrutura do Projeto
 ```
-npm install
-npx cypress open
+  cypress/
+    e2e/
+      login.cy.js
+  docs/
+    CT-001_Login_Valido.md
+    evidencias/
+      CT-001/
+  README.md
+  package.json
 ```
 
-Selecione o arquivo ```login.cy.js``` para rodar.
-
-## 📂 Estrutura
-```
-cypress/
-  e2e/
-    login.cy.js
-README.md
-package.json
-```
 ## 📞 Contato
 
-Arthur Guimarães
-LinkedIn: https://www.linkedin.com/in/oarthurguimaraes <br/>
-Email: arthurgruimaraes@gmail.com
+### Arthur Guimarães
+- LinkedIn: linkedin.com/in/oarthurguimaraes
+- E-mail: arthurgruimaraes@gmail.com
