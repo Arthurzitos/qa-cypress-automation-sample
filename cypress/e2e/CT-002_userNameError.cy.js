@@ -1,4 +1,4 @@
-describe('Login Inválido - SauceDemo', () => {
+describe('Usuário Inexistente - SauceDemo', () => {
   it('Não deve logar com usuário inválido', () => {
     cy.visit('https://www.saucedemo.com/')
     cy.screenshot('01_pagina_login')
